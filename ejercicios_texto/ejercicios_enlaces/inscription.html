@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <input type="text" name="q">
+    <button type="submit">Buscar</button>
+
+    <fieldset>
+        <legend>Datos personales<legend>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        
+        <label for="apellidos">apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos">
+
+        <label for="fecha de nacimiento">fecha de nacimiento:</label>
+        <input type="date" id="fecha de nacimiento" name="fecha de nacimiento">
+
+    </fieldset>
+    <fieldset>
+        <label for="Curso">Curso:</label>
+        <select id="Curso" name="Curso">
+            <option value="Curso 1" selected>Curso 1</option>
+            <option value="Curso 2">Curso 2</option>
+            <option value="Curso 3">Curso 3</option>
+            <option value="Curso 4">Curso 4</option>
+        </select>
+        <input type="radio" id="manana" name="turno" value="manana" checked>
+        <label for="manana">Mañana</label>
+
+        <input type="radio" id="tarde" name="turno" value="tarde">
+        <label for="tarde">Tarde</label>
+    </fieldset>
+        <input type="checkbox" id="vscode" name="Acepto la política de privacidad" value="acepto">
+    <label for="Acepto la política de privacidad">Acepto la política de privacidad</label>
+        <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+</body>
+</html>
+</form>
